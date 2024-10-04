@@ -18,7 +18,7 @@ const Team = () =>{
 
 
             <span className="mem-li-cover">
-            <span className="mem-img-cover"> <img src="" alt="" className="team-mem" /> <span className="mem-info">
+            <span className="mem-img-cover"> <img src="https://media.licdn.com/dms/image/v2/D5603AQEQR3TcJOvSTg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713710001402?e=1733356800&v=beta&t=1a61V0S_1-ASTYMP1ezPGWX-uzYEU_6yyuy3ANGstZ8" alt="" className="team-mem" /> <span className="mem-info">
                N Narshima Murthy <br/><i>Lead Climate Change</i>
             </span> </span>
             
