@@ -54,11 +54,12 @@ body{
     .eve-cover{
       width: 80%;
     }
-    .mem-li-cover{
+    .mem-li-cover,.lead-co-cover{
       display: grid;
       gap: 1.5rem;
-      grid-template-columns: auto  auto !important;
+      grid-template-columns: auto  !important;
     }
+   
 }
 main{
   display: flex;
@@ -71,6 +72,7 @@ main{
   align-self: flex-start;
 }
 .pg-heading{
+  text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;

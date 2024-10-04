@@ -5,14 +5,14 @@ const Team = () =>{
     return(
         <>
              
-               <span className="pg-heading" style={{fontSize:"4rem"}} >Meet our tem..!</span>
+               <span className="pg-heading" style={{fontSize:"4rem"}} >Meet our team..!</span>
                 <span className="lead-co-cover">
         
             <span className="mem-img-cover"><img src="https://media.licdn.com/dms/image/v2/D5603AQEsn8jXDnDAdA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727775081684?e=1733356800&v=beta&t=gAMkCKfp2qjNqMRPv6Exp_ICsrM1_wEdcb8BbJucNbw" alt="" className="team-mem" />
             <span className="mem-info">Santhosh Rahul<br></br><i>Lead </i></span>
             </span>
             {/* <br /> */}
-            <span className="mem-img-cover"> <img src="" alt="" className="team-mem" /> <span className="mem-info">
+            <span className="mem-img-cover"> <img src="https://media.licdn.com/dms/image/v2/D5603AQFrpXFIPYxn5g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728037513547?e=1733356800&v=beta&t=qeX4aQU84oeC_xjLy8tlTgmnEGL_Nx9eO1orSVB_8L4" alt="" className="team-mem" /> <span className="mem-info">
                G Anushma Shine <br/> <i>Co Lead </i>
             </span> </span></span>
 
@@ -70,7 +70,7 @@ const Team = () =>{
                 </span></span>
 
                 <span className="mem-img-cover"> 
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" className="team-mem" /><span className="mem-info">Kanchana <br /> <i>Co Lead Entrepreneurship</i>
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQHFH0sjncy_ag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728047923287?e=1733356800&v=beta&t=uo9CO8v11gFCI-Fe5fTQc81fLaU0tKXjGjjudlJd_4o" alt="" className="team-mem" /><span className="mem-info">Kanchana <br /> <i>Co Lead Entrepreneurship</i>
                 </span></span>
                 <span className="mem-img-cover"> 
                  <img src="" alt="" className="team-mem" /><span className="mem-info">
@@ -82,7 +82,7 @@ const Team = () =>{
                  </i></span></span> 
                  
                 <span className="mem-img-cover"> 
-                <img src="" alt="" className="team-mem" /><span className="mem-info">
+                <img src="https://media.licdn.com/dms/image/v2/D5635AQEUSivXLrnRjQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1728052432644?e=1728666000&v=beta&t=IYbvUItAu9j6GRp9P-leD89xura2xYK3TqM2-hBYEDM" alt="" className="team-mem" /><span className="mem-info">
                     K Vasantha <br /> <i>Co Lead Health</i>
                 </span></span>
                 </span>

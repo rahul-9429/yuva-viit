@@ -3,13 +3,13 @@ import './App.css';
 import logo from './YUVAVIIT.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt ,  faClock , faCalendarAlt} from '@fortawesome/free-solid-svg-icons';
-
+import {Link} from 'react-router-dom';
 const Events = () => {
     return (
         <>
             <div className="event-main"> 
                 <h1 className="eve-head">Catch what's happening!</h1>
-                <a href="/Gennxt" className="eve-link">
+                <Link to="/Gennxt" className="eve-link">
                     <div className="eve-cover">
                         <div className="event-wrap"> 
                             <div className="info-ele ele-a"> <img src={logo} alt="" /></div>
@@ -32,8 +32,8 @@ const Events = () => {
                         </div>
                         <div className="info-ele ele-c"><span className="reg-txt">Register Now</span></div>
                     </div>
-                </a>
-                <a href="/Bbic" className="eve-link">
+                </Link>
+                <Link to="/Bbic" className="eve-link">
                     <div className="eve-cover">
                         <div className="event-wrap"> 
                             <div className="info-ele ele-a"> <img src={logo} alt="" /></div>
@@ -57,8 +57,8 @@ const Events = () => {
                         </div>
                         <div className="info-ele ele-c"><span className="reg-txt">Register Now</span></div>
                     </div>
-                </a>             
-                <a href="/Pond-res" className="eve-link">
+                </Link>             
+                <Link to="/Pond-res" className="eve-link">
                     <div className="eve-cover">
                         <div className="event-wrap"> 
                             <div className="info-ele ele-a"> <img src={logo} alt="" /></div>
@@ -84,7 +84,7 @@ const Events = () => {
                         </div>
                         <div className="info-ele ele-c"><span className="reg-txt">Register Now</span></div>
                     </div>
-                </a><a href="/ThriftSale" className="eve-link">
+                </Link><Link to="/ThriftSale" className="eve-link">
                     <div className="eve-cover">
                         <div className="event-wrap"> 
                             <div className="info-ele ele-a"> <img src={logo} alt="" /></div>
@@ -109,7 +109,7 @@ const Events = () => {
                         </div>
                         <div className="info-ele ele-c"><span className="reg-txt">Register Now</span></div>
                     </div>
-                </a>
+                </Link>
             </div>
         </>
     );
