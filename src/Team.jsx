@@ -55,12 +55,12 @@ const Team = () =>{
             
                 
                 <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5635AQGXW0U7XhrOLA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1660002772504?e=1728640800&v=beta&t=zzsJ2Vq_gpDDtFWkRhi3AYv6NwfQTLMypwUqZHIU5NI" alt="" className="team-mem" /><span className="mem-info">
+                <img src="" alt="" className="team-mem" /><span className="mem-info">
                     Kulsoom Nisha <br /><i> Lead Accessibility</i>
                 </span></span>
 
                 <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQGpenxeA_0DTg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1671039312801?e=1733356800&v=beta&t=2SKPPL_FYXwxv9jJ5t-MuYCi8qWC65TpznQ2UiNe8j4" alt="" className="team-mem" /><span className="mem-info">L Rashmi <br /><i> Co Lead Accessibility</i>
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQGBXnZD3S8Uyg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728047090285?e=1733356800&v=beta&t=80i8r3T4tIjcBdl9BjdTgZGAxwuBA8TVGYOGQWtdAgg" alt="" className="team-mem" /><span className="mem-info">L Rashmi <br /><i> Co Lead Accessibility</i>
                 </span></span>
                 
                 

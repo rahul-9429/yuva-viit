@@ -10,11 +10,13 @@ function Home() {
     
     {/* <B/> */}
     
-     <section className="home-pg">
-<span className="yuva-info">Harnessing India's Massive Youth Power</span>
+<section className="home-pg">
+<span className="yuva-info">Learn-Bond-Grow</span>
+
 <img src="https://youngindians.net/wp-content/uploads/2023/04/yuva-logo.png" className='yuva-logo'></img>
 
-<span className="yuva-info">Empowering youth through leadership, skill development, and training, while cultivating responsibility and giving a voice to Young India.</span>
+<span className="yuva-info">Harnessing India's Massive Youth Power</span>
+
     </section>
     <section className="about-us">
       <h1>About us</h1>
@@ -29,7 +31,6 @@ Join YUVA to be part of this transformative journey and help shape a brighter fu
       </div>
       
     </section>
-    <h1>Contact Us</h1>
     
      
 

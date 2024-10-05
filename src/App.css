@@ -8,10 +8,14 @@ body{
 }
 .nav-li{
   font-size: 1.3rem;
+  /* background-color: aliceblue; */
 }
 
-.nav-li:active{
-    background-color: teal;
+.nav-li.active {
+  background-color:  rgba(41, 83, 155, 1);
+  ;
+
+ 
 }
 @media only screen and (max-width: 600px) {
     .bottom-screen{
@@ -19,15 +23,20 @@ body{
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        background-color: plum;
+        background-color:#ffffff;
+        /* box-shadow: 2px 2px 2px #2d5bae; */
         position: fixed; /* Uncommented for fixed positioning */
         bottom: 0; /* Position at the bottom */
         height: 4rem; /* Set height */
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        box-shadow: 0px -2px 20px 0px darkgrey;
     }
     .nav-items{
         display: block;
+    }
+    .teams-nav,.cont-nav{
+      display: none;
     }
     .event-wrap{
       display: flex;
@@ -50,6 +59,8 @@ body{
     }
     .ele-a{
       border-right: none !important;
+      min-height: max-content !important;
+      padding: .3rem 0 .3rem  0 ;
     }
     .eve-cover{
       width: 80%;
@@ -65,12 +76,42 @@ body{
       text-align: center;
       gap: 1rem;
     }
+    .home::after{
+      content: '\f015' !important;
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900; /* solid style */
+      /* margin-left: 5px; */
+    }
+    .ticket::after {
+      content: '\f145'!important;
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      margin-left: 5px;
+    }
+    .news::after {
+      content: '\f1ea'!important;
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      margin-left: 5px;
+    }
+    .more::after {
+      content: '\f0c9'!important;
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      margin-left: 5px;
+    }
 }
 main{
+  margin: 0 1rem 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.nav-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: -2px;
 }
 .to-high{
   font-weight: bold;
@@ -100,6 +141,7 @@ main{
   align-items: center;
   justify-content: center;
   font-size: 1rem;
+
 }
 .hr-all-rev{
   width: 90%;
@@ -116,6 +158,7 @@ main{
     font-size: 1.8rem;
    font-weight: bolder;
    padding: 1rem;
+   color: rgba(41, 83, 155, 1);
 }
 .ct-imgs,.con-div-1{
  justify-content: center;
@@ -129,7 +172,7 @@ main{
   padding: .5rem;
 }
 .home-pg{
-    
+    text-align: center;
     font-style: normal;
     font-size: xx-large;
     height: 100vh;
@@ -207,6 +250,10 @@ header{
     align-items: center;
     justify-content: center;
   }
+  .yuva-logo{
+    padding: 2rem 0 2rem 0;
+
+  }
   footer{
     align-items: center;
     justify-content: space-between;
@@ -225,6 +272,7 @@ header{
   .eve-head{
     font-size: 2.5rem;
     padding-top: 2rem;
+    text-align: center;
   }
   .slinks a{
     padding-left: 1rem;
@@ -327,4 +375,17 @@ header{
   }
   .mem-info i{
     font-weight: normal;
+  }
+  .home::before{
+ content: "";
+
+  }
+  .home::after{
+    content: "Home";
+  }
+  .ticket::after{
+    content: "Events";
+  }
+  .news::after{
+    content: "Articles";
   }
