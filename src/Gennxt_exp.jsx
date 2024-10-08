@@ -1,5 +1,9 @@
 import React from "react";
 import './App.css';
+import P1 from '../photos/gen-lab-1.jpg';
+import P2 from '../photos/gen-lab-2.jpg';
+import P3 from '../photos/gen-lab-3.jpg';
+
 
 const Gennxt_exp = () =>{
     return(
@@ -9,6 +13,7 @@ const Gennxt_exp = () =>{
                 <span className="auth-info">By Rahul Kasimikota  || 6th October 2024</span>
                 <br />
                 <hr /> <br />
+                <img src={P1} alt="" className="art-img"  loading="eager"/>
                 <p className="art-p">The GenNxt Lab, hosted by FORGE Academy, is an intensive two-day leadership bootcamp designed to nurture the next generation of leaders. Held recently, the program welcomed a diverse group of participants, including students, young professionals, and aspiring leaders, all eager to develop their skills in leadership, emotional intelligence, problem-solving, and sustainability. Through a blend of theoretical knowledge and hands-on activities, participants gained practical insights into leadership.
                 </p>
                 <h2 className="art-h2">Attendees</h2>
@@ -26,6 +31,7 @@ const Gennxt_exp = () =>{
                     <li>N Murthy</li>
                 </ul>
                 <h2 className="art-h2">Day 1: Personal Management, Emotional Intelligence, Sustainability and Leadership</h2>
+                <img src={P2} alt="" className="art-img"  loading="lazy"/>
                 <p className="art-p">The first day kicked off with a session on Personal Management led by <i> Mr. Siva Arunagiri, Founder of Avira Skills</i>. He emphasized the importance of self-awareness and understanding personal leadership potential. Through reflective exercises, participants analyzed qualities they admired in others, uncovering their own leadership traits. 
 <br /> <br />
 Next, Emotional Intelligence was tackled by  <i>Ms. Janita Veronica Psychotherapist</i>. She highlighted how self-awareness and the ability to manage emotions are crucial in team dynamics. Participants learned how subconscious qualities play a role in high-stress situations, reinforcing the idea that emotional intelligence is key to effective leadership.
@@ -41,6 +47,7 @@ Next, Emotional Intelligence was tackled by  <i>Ms. Janita Veronica Psychotherap
 <i>Dr. Shalini Priya </i>from KCT Business School led the next session on Strategic Problem Solving and Adaptability. She illustrated how leaders must remain flexible while maintaining a long-term vision, especially when faced with challenges. Participants engaged in case studies, learning how successful leaders navigate failures and adapt to evolving situations.</p>
 <br/>
 <h2 className="art-h2">A Journey to Remember</h2>
+<img src={P3} alt="" className="art-img long-art-img"  loading="lazy"/>
 <p className="art-p">
 The GenNxt Lab was more than just a leadership bootcamp—it was a memorable journey that left a lasting impact on every participant. Over the course of two days, participants formed strong bonds, shared experiences, and discovered new dimensions of their leadership potential. The hands-on activities, insightful discussions, and collaborative challenges created an atmosphere of growth, innovation, and fun. 
 <br /><br />

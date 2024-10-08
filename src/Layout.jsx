@@ -49,7 +49,7 @@ const Layout = () => {
             <span>Team</span>
           </Link>
           <Link
-            to="/Contact"
+            to="/Contact-us"
             onClick={() => handleSetActive('/Contact')}
             className={activeLink === '/Contact' ? 'nav-li active cont-nav' : 'nav-li cont-nav'}
           >

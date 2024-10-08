@@ -10,6 +10,8 @@ import Bbic from './Bbic.jsx';
 import Pond from './Pond.jsx';
 import Articles from './Articles.jsx';
 import Gennxt_exp from './Gennxt_exp.jsx';
+import Mental from './Article2.jsx';
+import Contact from './Contact.jsx';
 const App = () => {
   return (
     <Router>
@@ -24,6 +26,10 @@ const App = () => {
           <Route path="Pond-res" element ={<Pond/>}/>
           <Route path="Articles" element ={<Articles/>}/>
           <Route path="Gennxt-art" element={<Gennxt_exp/>}/>
+          <Route path="Mental-health-art" element={<Mental/>}/>
+          <Route path="Contact-us" element={<Contact/>}/>
+
+
         </Route>
       </Routes>
     </Router>

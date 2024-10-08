@@ -4,8 +4,7 @@ import "./App.css";
 const Team = () =>{
     return(
         <>
-             
-               <span className="pg-heading" style={{fontSize:"4rem"}} >Meet our team..!</span>
+               <span className="pg-heading eve-head" >Meet our team..!</span>
                 <span className="lead-co-cover">
         
             <span className="mem-img-cover"><img src="https://media.licdn.com/dms/image/v2/D5603AQEsn8jXDnDAdA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727775081684?e=1733356800&v=beta&t=gAMkCKfp2qjNqMRPv6Exp_ICsrM1_wEdcb8BbJucNbw" alt="" className="team-mem" />
