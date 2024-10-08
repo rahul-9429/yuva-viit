@@ -12,9 +12,12 @@ import Articles from './Articles.jsx';
 import Gennxt_exp from './Gennxt_exp.jsx';
 import Mental from './Article2.jsx';
 import Contact from './Contact.jsx';
+import Scrolltop from './Scrolltop.jsx';
+import More from './More.jsx';
 const App = () => {
   return (
     <Router>
+      <Scrolltop/>  
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -28,6 +31,7 @@ const App = () => {
           <Route path="Gennxt-art" element={<Gennxt_exp/>}/>
           <Route path="Mental-health-art" element={<Mental/>}/>
           <Route path="Contact-us" element={<Contact/>}/>
+          <Route path="More" element={<More/>}/>
 
 
         </Route>

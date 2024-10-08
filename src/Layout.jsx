@@ -79,7 +79,7 @@ const Layout = () => {
             <a href="https://www.linkedin.com/in/yuvaviit/">
               <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '36px' }} />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/viit_yuva_vizag?igsh=bXFwZ3doNmdzaTIw">
               <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '36px' }} />
             </a>
           </span>
@@ -96,10 +96,10 @@ const Layout = () => {
 
           <div className="contact-us pa-1">
             <span className="ct-links ctl-main">Useful Links</span>
-            <span className="ct-links">Photo Gallery</span>
-            <span className="ct-links">Events</span>
-            <span className="ct-links">Team</span>
-            <span className="ct-links">Contact Us</span>
+            <span className="ct-links ctl">Photo Gallery</span>
+            <span className="ct-links ctl"><Link to="/Events">Events</Link> </span>
+            <span className="ct-links ctl"> <Link to="/Team">  Team</Link></span>
+            <span className="ct-links ctl"><Link to="/Contact-us">Contact Us</Link> </span>
           </div>
           <div className="contact-us ct-imgs">
             <a href="https://www.cii.in/">
