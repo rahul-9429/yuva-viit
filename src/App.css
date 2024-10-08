@@ -3,17 +3,20 @@
 .bottom-screen,.nav-items {
     display: none; 
 }
-body{
+main,body{
     font-family: 'Poppins', sans-serif;
 }
 .nav-li{
   font-size: 1.3rem;
-  /* background-color: aliceblue; */
+  /* background-color: rgb(22, 30, 36); */
+  border-radius: 50px;
+  margin-left: .3rem;
+  font-weight: 500;
 }
 
 .nav-li.active {
   background-color:  rgba(41, 83, 155, 1);
-  ;
+  color: #ffffff;
 
  
 }
@@ -34,6 +37,9 @@ body{
     }
     .nav-items{
         display: block;
+    }
+    .more, .more-nav{
+      display: block;
     }
     .teams-nav,.cont-nav{
       display: none;
@@ -100,6 +106,164 @@ body{
       font-weight: 900;
       margin-left: 5px;
     }
+    .eve-cover{
+      width: 90% !important;
+    }
+    .home-img-mix{
+      display: flex;
+      flex-direction: column;
+    }
+    .yuva-logo{
+      width: 13rem;
+    }
+.abt-us-wrap{
+  display: flex;
+flex-direction: column;}
+.abt-us , .exe-eve{
+  width: 100% !important;
+  flex-direction: column !important;
+}
+.exe-eve-div, .exe-eve-div2 ,.exe-info{
+  width: 100% !important;
+}
+.imgs-yi{
+  width: 90%;
+}
+.yil0go1{
+  height: 20rem !important;
+}
+footer{
+  margin-bottom: 3.4rem;
+}
+}
+.art-out-wrap{
+  /* background-color: aquamarine; */
+  padding: 0 8rem 0 8rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem; 
+}
+.art-meta-info-head{
+  font-size: larger;
+  font-weight: 586;
+}
+.art-main-wrap{
+  height: max-content !important;
+  /* background-color: pink; */
+  padding: 1rem;
+  border: 3px solid  rgb(136, 158, 198);
+  border-radius: 20px;
+  height: 20rem;
+}
+.art-main-wrap:hover{
+  background-color: rgb(239, 251, 255);
+}
+.art-main-wrap img{
+  border-radius: 20px;
+}
+.art-wrap{
+  /* padding: 0 4rem 0 rem ; */
+  width: 86%;
+}
+.art-h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.art-h2{
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.art-p{
+  font-size: large;
+}
+.yuva-eves, ul{
+  padding-left: 2rem;
+  list-style: disc;
+}
+.about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt-us{
+  padding: 2rem;
+  width: 90%;
+  background-color:rgb(210, 228, 249);
+  font-size: large;
+   line-height: 180%;
+   border-radius: 20px;
+   box-shadow: 5px 5px 15px 0px rgb(186, 186, 186);
+}
+.exe-eve{
+  display: flex;
+  padding: 2rem 2rem 3rem 2rem;
+  width: 90%;
+  background-color:rgb(255, 255, 255);
+  font-size: large;
+   line-height: 180%;
+   border-radius: 20px;
+   box-shadow: 5px 5px 15px 0px rgb(186, 186, 186);
+}
+.exe-eve-div{
+  width: 65%;
+  padding-left: 1rem;
+}
+.exe-eve-div2{
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.abt-us p{
+  padding-left: 1.2rem;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.eve-exe-logo{
+  padding-left: 0 !important;
+}
+
+.abt-us-wrap{
+  display: flex;
+}
+.yil0go1{
+  height: 24rem;
+  border-radius: 20px;
+  /* margin: 2.6rem; */
+}
+  .yil0go2,.yil0go3{
+  height: 20rem;
+  border-radius: 20px;
+  margin: 2.6rem;
+}
+.yuva-info{
+  font-family: poppins;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.yuva-info-p{
+  font-size:1.5rem;
+}
+.imgs-yi{
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* width: 60%; */
+  /* background-color: aqua; */
+  margin: 4rem;
+}
+.yil0go2{  z-index: -1;
+  /* padding-left: 10rem; */
+  /* position: fixed; */
+}
+
+.sub-logo{
+  padding: 0  ;
 }
 main{
   margin: 0 1rem 0 1rem;
@@ -175,11 +339,12 @@ main{
     text-align: center;
     font-style: normal;
     font-size: xx-large;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 3rem;
 }
 .contact-us{
   min-width: 33%;
@@ -251,7 +416,7 @@ header{
     justify-content: center;
   }
   .yuva-logo{
-    padding: 2rem 0 2rem 0;
+    padding: 0rem 0 2rem 0;
 
   }
   footer{
@@ -279,7 +444,7 @@ header{
     padding-right: 1rem;
   }
   .slinks a:hover{
-    color: #2d5bae;
+    color: rgba(41, 83, 155, 1);
     transition:cubic-bezier(0.075, 0.82, 0.165, 1)}
   .social-handles{
     padding-top: 2rem;
@@ -298,6 +463,11 @@ header{
     width: 75%;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0px 10px 1px grey;
+  }
+  .ct-links{
+    font-weight: 500;
+    font-size: large;
   }
   .event-wrap{
     display: flex;

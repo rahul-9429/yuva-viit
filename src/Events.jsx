@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import logo from './YUVAVIIT.png';
+import logo from '../photos/YUVAVIIT.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt ,  faClock , faCalendarAlt} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';

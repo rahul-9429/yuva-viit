@@ -8,6 +8,8 @@ import Events from './Events.jsx';
 import Genxt from './Genxt.jsx';
 import Bbic from './Bbic.jsx';
 import Pond from './Pond.jsx';
+import Articles from './Articles.jsx';
+import Gennxt_exp from './Gennxt_exp.jsx';
 const App = () => {
   return (
     <Router>
@@ -20,7 +22,8 @@ const App = () => {
           <Route path="Gennxt" element ={<Genxt/>}/>
           <Route path="Bbic" element ={<Bbic/>}/>
           <Route path="Pond-res" element ={<Pond/>}/>
-
+          <Route path="Articles" element ={<Articles/>}/>
+          <Route path="Gennxt-art" element={<Gennxt_exp/>}/>
         </Route>
       </Routes>
     </Router>

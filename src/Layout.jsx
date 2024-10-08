@@ -58,7 +58,7 @@ const Layout = () => {
           <Link
             to="/More"
             onClick={() => handleSetActive('/More')}
-            className={activeLink === '/More' ? 'nav-li active' : 'nav-li'}
+            className={activeLink === '/More' ? 'nav-li active more-nav' : 'nav-li more-nav'}
           >
             <span className="more"></span>
           </Link>
@@ -88,6 +88,7 @@ const Layout = () => {
         <div className="cont-wrap">
           <div className="contact-us">
             <span className="con-div-1">
+              
               <img src="https://youngindians.net/wp-content/uploads/2023/04/yuva-logo.png" className='yuva-logo-ct-div' alt="YUVA Logo" />
               <span className="contact-us-viit">Vignan's Institute of Information Technology - Visakhapatnam</span>
             </span>
@@ -101,12 +102,14 @@ const Layout = () => {
             <span className="ct-links">Contact Us</span>
           </div>
           <div className="contact-us ct-imgs">
+            <a href="https://www.cii.in/">
             <img className="cii-logo"
               src="https://youngindians.net/wp-content/uploads/2022/10/cii-logo.png"
-              alt="CII Logo" />
+              alt="CII Logo" /></a>
+              <a href="https://youngindians.net/">
             <img className="yi-logo"
               src="https://youngindians.net/wp-content/uploads/2022/10/young-indians-header-logo.png"
-              alt="Young Indians Logo" />
+              alt="Young Indians Logo" /></a>
           </div>
         </div>
         <hr className="hr-all-rev" />
