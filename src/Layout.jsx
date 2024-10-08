@@ -96,7 +96,7 @@ const Layout = () => {
 
           <div className="contact-us pa-1">
             <span className="ct-links ctl-main">Useful Links</span>
-            <span className="ct-links ctl">Photo Gallery</span>
+            <span className="ct-links ctl"> <Link to="/Photos">Photo Gallery</Link></span>
             <span className="ct-links ctl"><Link to="/Events">Events</Link> </span>
             <span className="ct-links ctl"> <Link to="/Team">  Team</Link></span>
             <span className="ct-links ctl"><Link to="/Contact-us">Contact Us</Link> </span>
@@ -113,7 +113,9 @@ const Layout = () => {
           </div>
         </div>
         <hr className="hr-all-rev" />
-        <span className="all-rev">© 2024 Yuva VIIT | All rights reserved.</span>
+        <span className="all-rev">© 2024 Yuva VIIT | All rights reserved.
+          <br/> <small>Developed by Rahul Kasimikota</small>
+        </span>
       </footer>
     </>
   );

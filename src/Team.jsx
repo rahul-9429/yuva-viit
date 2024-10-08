@@ -8,7 +8,7 @@ const Team = () =>{
                 <span className="lead-co-cover">
         
             <span className="mem-img-cover"><img src="https://media.licdn.com/dms/image/v2/D5603AQEsn8jXDnDAdA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727775081684?e=1733356800&v=beta&t=gAMkCKfp2qjNqMRPv6Exp_ICsrM1_wEdcb8BbJucNbw" alt="" className="team-mem" />
-            <span className="mem-info">Santhosh Rahul<br></br><i>Lead </i></span>
+            <span className="mem-info">Rahul Kasimikota<br></br><i>Lead </i></span>
             </span>
             {/* <br /> */}
             <span className="mem-img-cover"> <img src="https://media.licdn.com/dms/image/v2/D5603AQFrpXFIPYxn5g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728037513547?e=1733356800&v=beta&t=qeX4aQU84oeC_xjLy8tlTgmnEGL_Nx9eO1orSVB_8L4" alt="" className="team-mem" /> <span className="mem-info">

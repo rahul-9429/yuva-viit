@@ -28,7 +28,7 @@ We request each Yuva chapter to nominate 10 students for this incredible, free-o
 <span className="pg-heading">
 
 <b>
-📝 Register now at: <u><a href="bit.ly/GenNxt-Lab">bit.ly/GenNxt-Lab</a></u><br></br>
+📝 Register now at: <u><a href="https://bit.ly/GenNxt-Lab">bit.ly/GenNxt-Lab</a></u><br></br>
 ⏳ Registration closes on: 23rd September
 </b>
 </span>

@@ -39,7 +39,7 @@ main,body{
         display: block;
     }
     .more, .more-nav{
-      display: block;
+      /* display: contents; */
     }
     .teams-nav,.cont-nav{
       display: none;
@@ -101,10 +101,11 @@ main,body{
       margin-left: 5px;
     }
     .more::after {
-      content: '\f0c9'!important;
+      content: '\f141'!important;
       font-family: 'Font Awesome 6 Free';
       font-weight: 900;
       margin-left: 5px;
+      height: max-content !important;
     }
     .eve-cover{
       width: 90% !important;
@@ -402,6 +403,7 @@ main{
 .all-rev{
   padding: 1rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1rem;

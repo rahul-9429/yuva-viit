@@ -55,6 +55,7 @@ From the excitement of the Protect the Egg Challenge to the deep self-reflection
 <br /><br />
 
 The bootcamp may have come to an end, but the friendships, lessons, and inspiration gained during the GenNxt Lab will continue to guide them as they step into the future as confident, compassionate, and visionary leaders.
+<br /> Special thanks to Deepa mam & whole Yi Vizag team for providing this wonderful Opportunity ❤️!  
 </p>
             </div>
         </>
