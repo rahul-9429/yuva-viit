@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './App.css';
-import Gennxt_exp from "./Gennxt_exp";
-import logo from '../photos/YUVAVIIT.png';
+// import Gennxt_exp from "./articles/Gennxt_exp";
+import logo from './photos/YUVAVIIT.png';
 const Articles = () =>{
     return(
         <>

@@ -1,10 +1,9 @@
 import B from'./Home.jsx';
 import './App.css'
-import C from './DropDown1.jsx';
-import Yi1 from '../photos/yi1.png';
-import Yi2 from '../photos/yi2.png';
-import Yi3 from '../photos/yi3.png';
-import Yi4 from '../photos/image.png';
+import Yi1 from './photos/yi1.png';
+import Yi2 from './photos/yi2.png';
+import Yi3 from './photos/yi3.png';
+import Yi4 from './photos/image.png';
 
 function Home() {
    

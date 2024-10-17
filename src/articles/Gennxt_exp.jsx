@@ -1,6 +1,6 @@
 import React from "react";
-import './App.css';
-import P1 from '../photos/gen-lab-1.jpg';
+import '../App.css';
+import P1 from "../photos/gen-lab-1.jpg";
 import P2 from '../photos/gen-lab-2.jpg';
 import P3 from '../photos/gen-lab-3.jpg';
 

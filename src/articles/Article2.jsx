@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './App.css';
-import P1 from '../photos/art2-1.png';
+import '../App.css';
+import P1 from "../photos/art2-1.png";
 const Article2 = () =>{
     return(
         <>
