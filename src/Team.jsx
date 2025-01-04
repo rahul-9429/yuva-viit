@@ -1,89 +1,133 @@
 import React from "react";
 import "./App.css";
+import Member from "./Team_mem";
 
 const Team = () =>{
+    const teamdata = [
+        {
+          "name": "Rahul Kasimikota",
+          "position": "Lead",
+          "link": "https://media.licdn.com/dms/image/v2/D5603AQGLRIg0uREKkg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731674710517?e=1741219200&v=beta&t=RySwVCA39RHI82-bv68YwNwIiQ2eCnTzT6AFoAgcC_I",
+          "linkedin": "https://www.linkedin.com/in/kasimikotasanthoshrahul/"
+        },
+        {
+          "name": "G Anushma Shine",
+          "position": "Co Lead",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/gudisa-anushmashine-0770a4250?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD3zBVsBiAEZkdaf85bClR7nZzRcb1LDbsc&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BdWZkwOFsSZacIXAVAIDr3g%3D%3D"
+        },
+        {
+          "name": "Hemanth Sagar",
+          "position": "Event Manager",
+          "link": "",
+          "linkedin": ""
+        },
+        {
+          "name": "N Narshima Murthy",
+          "position": "Lead Climate Change",
+          "link": "",
+          "linkedin": ""
+        },
+        {
+          "name": "D Pavan Kumar",
+          "position": "Co Lead Climate Change",
+          "link": "https://media.licdn.com/dms/image/v2/D5603AQFtZtDb5rrA-Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1720901495501?e=1741219200&v=beta&t=mLjSjelkdW8fQryGPMHe6nEa--aJevSzDP3W9R3o-44",
+          "linkedin": "https://www.linkedin.com/in/das-pavan-kumar-686279165/"
+        },
+        {
+          "name": "DVS Neha",
+          "position": "Lead Innovation",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/neha-dvs-275181270?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEI7nDkB2E3Zt6UHt5Se58tCRcOpTl1MGNo&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BJcFKXWYeSoOpAsDuWK66ow%3D%3D"
+        },
+        {
+          "name": "D M S Pranamya",
+          "position": "Co Lead Innovation",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/dmspranamya/"
+        },
+        {
+          "name": "B Likhita",
+          "position": "Lead Learning",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/likhita-beesetty-b18246264?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEDRysQBIxCk2_lVwyciXEg690kuwUjyNDU&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BBGjKeUG4TWy4VZBhlPCfhg%3D%3D"
+        },
+        {
+          "name": "G Sudarshan",
+          "position": "Co Lead Learning",
+          "link": "https://media.licdn.com/dms/image/v2/D5635AQGDizw3VnM3Ng/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1728466694815?e=1736618400&v=beta&t=ZDUghva5zvcAiaZ-CrBMeWtWdp8f8YoBhip1QwIs_Rc",
+          "linkedin": "https://www.linkedin.com/in/sudarshan-gulipalli-5a2270270?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEI_EkoBpUphOjUOxuRUTRMfVdat-mYCTV8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BzHOSwLiTSri10u9HFi%2FQ%2Fw%3D%3D"
+        },
+        {
+          "name": "P Sita",
+          "position": "Lead Road Safety",
+          "link": "https://media.licdn.com/dms/image/v2/D5635AQGWEHuEHd4hfw/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1719507354460?e=1736618400&v=beta&t=BuWfI5v2dtE_U6-A3WM0o0UQwua4nD0yX7UkEKfKK4I",
+          "linkedin": "https://www.linkedin.com/in/sitha-samvrutha-pitambaram-4b8740270?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEJRGswBaZmT5O2OGd8VxK3wpzBtoGBPhSk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BQ2%2B3rfMgRz6sFiFZrbh0Jg%3D%3D"
+        },
+        {
+          "name": "Akash Mishra",
+          "position": "Co Lead Road Safety",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/akash1mishra01?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADt-en0B54pJidgXDtT4Zzad3_WIRnW0Cng&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BVaouBc%2BvRMyV8gpvGQGnsg%3D%3D"
+        },
+        {
+          "name": "Kulsoom Nisha",
+          "position": "Lead Accessibility",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/kulsoom-nisha-53387526b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEIoa7cBWoJvXu5qTztbyMXgFuQurt7x43U&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BgoP7YYFtSWKl32JCzDGcwA%3D%3D"
+        },
+        {
+          "name": "L Rashmi",
+          "position": "Co Lead Accessibility",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/rashmi-landa-294796255/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BWozZv2cIT4OCXloBDXtl5A%3D%3D"
+        },
+        {
+          "name": "K Akankasha",
+          "position": "Lead Entrepreneurship",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/akankasha-korrayi-560021268?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEF_q9gBIWliQxUH6GmRXROBNHoY0qBt59o&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bt8HeKIGfRJidE7Qhz2P%2B2w%3D%3D"
+        },
+        {
+          "name": "Kanchana",
+          "position": "Co Lead Entrepreneurship",
+          "link": "https://media.licdn.com/dms/image/v2/D5603AQEsHBx1vtg1Dw/profile-displayphoto-shrink_100_100/B56ZP5UHIkHoAU-/0/1735054620223?e=1741219200&v=beta&t=fuS7H3hbNaG_q4guKtqcvB4ot7MWNZ8fUY-y-JqNyTo",
+          "linkedin": "https://www.linkedin.com/in/kanchana-ketha-a67740272?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEKsPe8BsrMZdaYjJVb4a1hU_hYYyRmeLSw&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BOMFKn%2F9rROe%2BImDgNqNPBw%3D%3D"
+        },
+        {
+          "name": "Mounika",
+          "position": "Co Lead Entrepreneurship",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/mounika-kotaru-3103b8271?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEJx5rwBSGYXmd7iVC4LFG3PYGaGRELirvk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BC3sArT8RTtq7whB1%2FEjgDQ%3D%3D"
+        },
+        {
+          "name": "K S Vaishnavi",
+          "position": "Lead Health",
+          "link": "",
+          "linkedin": ""
+        },
+        {
+          "name": "K Vasantha",
+          "position": "Co Lead Health",
+          "link": "",
+          "linkedin": "https://www.linkedin.com/in/vasantha-korada-6bb603270?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEJMIC8BB-GgR9j_co7B_EFJUmVcjDo8urw&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B2BX0FFc%2FSxadmiv7YO%2BQLg%3D%3D"
+        }
+      ];
+      
     return(
         <>
                <span className="pg-heading eve-head" >Meet our team..!</span>
-                <span className="lead-co-cover">
-        
-            <span className="mem-img-cover"><img src="https://media.licdn.com/dms/image/v2/D5603AQEsn8jXDnDAdA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727775081684?e=1733356800&v=beta&t=gAMkCKfp2qjNqMRPv6Exp_ICsrM1_wEdcb8BbJucNbw" alt="" className="team-mem" />
-            <span className="mem-info">Rahul Kasimikota<br></br><i>Lead </i></span>
-            </span>
-            {/* <br /> */}
-            <span className="mem-img-cover"> <img src="https://media.licdn.com/dms/image/v2/D5603AQFrpXFIPYxn5g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728037513547?e=1733356800&v=beta&t=qeX4aQU84oeC_xjLy8tlTgmnEGL_Nx9eO1orSVB_8L4" alt="" className="team-mem" /> <span className="mem-info">
-               G Anushma Shine <br/> <i>Co Lead </i>
-            </span> </span></span>
-
-
             <span className="mem-li-cover">
-            <span className="mem-img-cover"> <img src="https://media.licdn.com/dms/image/v2/D5603AQEQR3TcJOvSTg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713710001402?e=1733356800&v=beta&t=1a61V0S_1-ASTYMP1ezPGWX-uzYEU_6yyuy3ANGstZ8" alt="" className="team-mem" /> <span className="mem-info">
-               N Narshima Murthy <br/><i>Lead Climate Change</i>
-            </span> </span>
-            
-            <span className="mem-img-cover"> <img src="https://media.licdn.com/dms/image/v2/D5603AQFtZtDb5rrA-Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720901495501?e=1733356800&v=beta&t=mZxZGhXK2tIOvcXZrJ__H-ixXHHO1qxupQ3YlyZ1snY" alt="" className="team-mem" /><span className="mem-info"> D Pavan Kumar<br/><i>Co Lead Climate Change</i></span> </span>
-            
-            <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5635AQE3RGQNYpZumw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1715958484984?e=1728640800&v=beta&t=FumfZHPbq9E4NVYhaTZ4eO7mLd7-sduVGDv_e3FW6Y0" alt="" className="team-mem" /><span className="mem-info">DVS Neha <br/><i>Lead Innovation</i>
-                 </span></span>
+            {teamdata.map((mem, index) => (
+            <Member
+                key={index}
+                link={mem.link}
+                linkedin={mem.linkedin}
+                name={mem.name}
+                position={mem.position}
+            />
+        ))}
 
-                 <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQG-a5ovSGI6HQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1703697642215?e=1733356800&v=beta&t=388-7P5CkIip0l3455j4yXmnhzc4xLaA3yJ8TpVhEtA" alt="" className="team-mem" /><span className="mem-info">D M S Pranamya <br /><i> Co Lead Innovation</i>
-                </span></span>
-
-                 <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D4D35AQHE4Gbmqh09nw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1726382726004?e=1728640800&v=beta&t=a3BvbSi-ziBxpBVFHKgQCQLyioY2J3g2oy7NNTnp1og" alt="" className="team-mem" /> <span className="mem-info"> B Likhita <br /> <i>Lead Learning</i>
-                </span></span>
-            
-                <span className="mem-img-cover"> 
-                  <img src="https://media.licdn.com/dms/image/v2/D5603AQG3Cj1XnBIAJQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1680599842381?e=1733356800&v=beta&t=_8K3s9g6Hl--yzyfjvHcNCBZaRN6M1-Aj8oKQKbmAWY" alt="" className="team-mem" />
-                  <span className="mem-info">
-                    G Sudarshan <br /><i> Co Lead Learning</i>
-                </span></span>
-          
-                <span className="mem-img-cover"> 
-                 <img src="https://media.licdn.com/dms/image/v2/D5635AQGWEHuEHd4hfw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719507354576?e=1728640800&v=beta&t=z7df6IWj83zeaLGX_VMezyy8MppREIRy_893LLpIKiM" alt="" className="team-mem" /><span className="mem-info">
-                    P Sita <br /><i>Lead Road Safety</i>
-                </span></span>
-           
-                <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D4D03AQHbamhHWAA9cA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1689274789595?e=1733356800&v=beta&t=mnhdvsdtaslm68SpHyFmZTKkSizVo_m0r6qifCGyxhM" alt="" className="team-mem" /><span className="mem-info">
-                    Akash Mishra <br /> <i>Co Lead Road Safety</i>
-                </span></span>
-            
-            
-                
-                <span className="mem-img-cover"> 
-                <img src="" alt="" className="team-mem" /><span className="mem-info">
-                    Kulsoom Nisha <br /><i> Lead Accessibility</i>
-                </span></span>
-
-                <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQGBXnZD3S8Uyg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728047090285?e=1733356800&v=beta&t=80i8r3T4tIjcBdl9BjdTgZGAxwuBA8TVGYOGQWtdAgg" alt="" className="team-mem" /><span className="mem-info">L Rashmi <br /><i> Co Lead Accessibility</i>
-                </span></span>
-                
-                
-                <span className="mem-img-cover">
-                <img src="https://media.licdn.com/dms/image/v2/D5635AQH2wDBXZhlihQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1721815510124?e=1728640800&v=beta&t=NFetm6f5tyXQb2XdYTbzdWjrhgYu4_aM9PsTuaD1rF8" alt="" className="team-mem" />
-                 <span className="mem-info"> K Akankasha <br /><i>Lead Entrepreneurship</i>
-                </span></span>
-
-                <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQHFH0sjncy_ag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728047923287?e=1733356800&v=beta&t=uo9CO8v11gFCI-Fe5fTQc81fLaU0tKXjGjjudlJd_4o" alt="" className="team-mem" /><span className="mem-info">Kanchana <br /> <i>Co Lead Entrepreneurship</i>
-                </span></span>
-                <span className="mem-img-cover"> 
-                 <img src="" alt="" className="team-mem" /><span className="mem-info">
-                    Mounika <br /> <i>Co Lead Entrepreneurship</i>
-                </span></span>
-             <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQELpewWycOrPw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726914902476?e=1733356800&v=beta&t=Y7Y_0U6O9TbZDfhkOD2kpHJ0PFMZDEV7T5Qv1mcTQ4Y" alt="" className="team-mem" />
-                <span className="mem-info">K S Vaishnavi <br /><i>Lead Health
-                 </i></span></span> 
-                 
-                <span className="mem-img-cover"> 
-                <img src="https://media.licdn.com/dms/image/v2/D5635AQEUSivXLrnRjQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1728052432644?e=1728666000&v=beta&t=IYbvUItAu9j6GRp9P-leD89xura2xYK3TqM2-hBYEDM" alt="" className="team-mem" /><span className="mem-info">
-                    K Vasantha <br /> <i>Co Lead Health</i>
-                </span></span>
                 </span>
         </>
     )

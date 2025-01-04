@@ -9,7 +9,11 @@ const Events = () => {
         <>
             <div className="event-main"> 
                 <h1 className="eve-head">Catch what's happening!</h1>
-
+                    <span className="hmm-ntg">
+                        Hmmm... Nothing here yet! Check back soon for updates.
+                    </span>
+                
+                <h1 className="eve-head">Past Events</h1>
                 <Link to="/Thriftsale" className="eve-link">
                     <div className="eve-cover">
                         <div className="event-wrap"> 
@@ -33,7 +37,6 @@ const Events = () => {
                         <div className="info-ele ele-c"><span className="reg-txt">Register Now</span></div>
                     </div>
                 </Link>
-                <h1 className="eve-head">Past Events</h1>
                 <Link to="/Gennxt" className="eve-link">
                     <div className="eve-cover">
                         <div className="event-wrap"> 

@@ -66,12 +66,13 @@ const Layout = () => {
       </header>
 
       <main>
+        <div className="bg-grad"></div>
         <Outlet />
       </main>
 
       <footer className="home-footer">
         <div className='social-handles'>
-          <h1>Our Presence</h1>
+          <h3>Our Presence</h3>
           <span className="slinks">
             <a href="https://chat.whatsapp.com/Gd6G7qcGgPLLsHEyw3gzmv">
               <FontAwesomeIcon icon={faWhatsapp} style={{ fontSize: '36px' }} />
@@ -113,8 +114,10 @@ const Layout = () => {
           </div>
         </div>
         <hr className="hr-all-rev" />
-        <span className="all-rev">© 2024 Yuva VIIT | All rights reserved.
-          <br/> <small>Developed by Rahul Kasimikota</small>
+        <span className="all-rev">© 2025 Yuva VIIT | All rights reserved.
+          <br/> <small>
+            <a href="https://www.linkedin.com/in/kasimikotasanthoshrahul/">Developed by Rahul Kasimikota</a>
+            </small>
         </span>
       </footer>
     </>
