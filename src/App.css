@@ -185,6 +185,9 @@ footer{
 .cont-p1 {
   width: 90% !important;
 }
+.cont-p1 h1{
+  font-size: large !important;
+}
  .cont-p2{
   width: 100% !important;
  }
