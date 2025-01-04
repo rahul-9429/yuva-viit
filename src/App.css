@@ -27,6 +27,9 @@ main,body{
  
 }
 @media only screen and (max-width: 600px) {
+  .main-logo {
+    margin: 0 !important;
+  }
     .bottom-screen{
         display: flex; 
         align-items: center;
@@ -209,7 +212,11 @@ footer{
   font-size: x-small !important;
  }
  .ct-imgs img {
-  height: 4.7rem !important;
+  /* height: 4.7rem !important; */
+  display: none !important;
+ }
+ h1{
+  font-size: 2.2rem !important;
  }
 
 }
